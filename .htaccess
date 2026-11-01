@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+
+# Route all API requests through the single PHP entry point.
+RewriteRule ^api(?:/.*)?$ backend/public/index.php [END,QSA]
+
+# Next.js runs on port 3000; do not serve project files from Apache.
+RewriteRule ^ - [F,END]
