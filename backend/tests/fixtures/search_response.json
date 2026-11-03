@@ -1,0 +1,10 @@
+{
+  "responseHeader": {"status": 0},
+  "response": {
+    "numFound": 634,
+    "docs": [
+      {"identifier": "education_2", "title": "Computers in Education", "year": "1984"},
+      {"identifier": "Artifici1984", "title": ["Artificial Intelligence"], "licenseurl": null}
+    ]
+  }
+}

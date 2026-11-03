@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "identifier": "missing_fields",
+    "title": "Untitled Duration"
+  },
+  "files": [
+    {"name": "only.mp4", "format": "MPEG4", "size": "10"}
+  ]
+}

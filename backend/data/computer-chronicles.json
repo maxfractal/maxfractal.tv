@@ -1,0 +1,67 @@
+{
+  "name": "Computer Chronicles draft candidates",
+  "search": {
+    "api": "https://archive.org/advancedsearch.php",
+    "query": "collection:computerchronicles AND mediatype:movies",
+    "sort": "date asc",
+    "retrieved": "2026-11-02",
+    "num_found": 634
+  },
+  "limitation": "Each Archive item is one program. Additional video files are retained as non-preferred media_files and are not split into separate episodes.",
+  "items": [
+    {
+      "identifier": "education_2",
+      "observed_title": "Computers in Education",
+      "year": "1984",
+      "preferred_file": "education_2.mp4",
+      "archive_format": "h.264",
+      "duration_seconds": 1426,
+      "notes": "Verified 2026-11-02 from Archive metadata. File length 1426.44 seconds. No licenseurl or rights field. Description says Copyright 1984 Stewart Cheifet Productions. Other video files include MPEG2, Ogg, and several MPEG4 derivatives."
+    },
+    {
+      "identifier": "Artifici1984",
+      "observed_title": "Artificial Intelligence",
+      "year": "1984",
+      "preferred_file": "Artifici1984.mp4",
+      "archive_format": "h.264",
+      "duration_seconds": 1720,
+      "notes": "Verified 2026-11-02. File length 1720.27 seconds. No description, licenseurl, or rights field. The item contains many derivative videos; they are kept and are not treated as separate programs."
+    },
+    {
+      "identifier": "Programm1984",
+      "observed_title": "Programming",
+      "year": "1984",
+      "preferred_file": "Programm1984.mp4",
+      "archive_format": "h.264",
+      "duration_seconds": 1389,
+      "notes": "Verified 2026-11-02. File length 1389.45 seconds. No licenseurl or rights field. Description says Copyright 1984 Stewart Cheifet Productions."
+    },
+    {
+      "identifier": "SpeechSy1984",
+      "observed_title": "Speech Synthesis",
+      "year": "1984",
+      "preferred_file": "SpeechSy1984.mp4",
+      "archive_format": "h.264",
+      "duration_seconds": 1762,
+      "notes": "Verified 2026-11-02. File length 1762.32 seconds. No licenseurl, rights field, or copyright sentence in the description."
+    },
+    {
+      "identifier": "Database1984",
+      "observed_title": "Database Software",
+      "year": "1984",
+      "preferred_file": "Database1984.mp4",
+      "archive_format": "h.264",
+      "duration_seconds": 1355,
+      "notes": "Verified 2026-11-02. File length 1354.92 seconds, rounded to 1355. No licenseurl or rights field. Description says Copyright Stewart Cheifet Productions 1984."
+    },
+    {
+      "identifier": "ccs01e08utilities",
+      "observed_title": "Computer Chronicles: Utilities",
+      "year": "1984",
+      "preferred_file": "M0974_b2_Utilities.mp4",
+      "archive_format": "MPEG4",
+      "duration_seconds": 1941,
+      "notes": "Verified 2026-11-02. File length 1941.42 seconds. Creator is Stewart Cheifet. No licenseurl or rights field. The only video is labeled MPEG4, so a browser-compatible codec is not established."
+    }
+  ]
+}

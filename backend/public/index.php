@@ -16,7 +16,19 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'OPTIONS') {
 }
 
 $path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-$route = preg_replace('#^/api/?#', '', $path);
+
+// Support maxfractal.tv under XAMPP's /dev/ directory.
+$apiPrefix = '/dev/maxfractal.tv/api';
+
+if ($path === $apiPrefix || str_starts_with($path, $apiPrefix . '/')) {
+    $route = ltrim(substr($path, strlen($apiPrefix)), '/');
+} else {
+    http_response_code(404);
+    echo json_encode(['error' => 'Not found']);
+    exit;
+}
+
+$route = trim($route, '/');
 
 if ($route === 'health' || $route === 'health/') {
     http_response_code(200);

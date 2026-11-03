@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "identifier": "example_array",
+    "title": ["Primary Title", "Secondary Title"],
+    "description": ["First paragraph.", "Second paragraph."],
+    "licenseurl": ["https://example.org/license"],
+    "runtime": ["28:30"]
+  },
+  "files": [
+    {"name": "episode.mp4", "format": "h.264", "length": "1700.2", "size": "50"}
+  ]
+}

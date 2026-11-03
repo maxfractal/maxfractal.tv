@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "identifier": "education_2",
+    "title": "Computers in Education",
+    "description": "An early look at computers in education.<div>Copyright 1984 Stewart Cheifet Productions.</div>",
+    "collection": ["computerchronicles", "tvprograms"],
+    "mediatype": "movies",
+    "year": "1984"
+  },
+  "files": [
+    {"name": "__ia_thumb.jpg", "format": "Item Tile", "size": "7785"},
+    {"name": "education_2.asr.srt", "format": "SubRip", "size": "34882"},
+    {"name": "education_2.mp4", "source": "derivative", "format": "h.264", "size": "143727539", "length": "1426.44"},
+    {"name": "education_2.mpeg", "format": "MPEG2", "size": "944756064", "length": "1426.36"},
+    {"name": "education_2.ogv", "format": "Ogg Video", "size": "104028444", "length": "1426.39"},
+    {"name": "education_2_512kb.mp4", "format": "512Kb MPEG4", "size": "103697915", "length": "1426.39"},
+    {"name": "clip.wmv", "format": "Windows Media", "size": "1000", "length": "10"},
+    {"name": "education_2_meta.xml", "format": "Metadata", "size": "200"}
+  ]
+}
